@@ -1,0 +1,12 @@
+ncsim: 15.20-s035: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm :clock :q_out :reset_in
+Created probe 1
+ncsim> run 100 ns
+Ran until 100 NS + 0
+ncsim> 

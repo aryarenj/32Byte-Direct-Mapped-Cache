@@ -1,0 +1,47 @@
+ncsim: 15.20-s035: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+Loading snapshot vhdl.chip_test:test .................... Done
+ncsim> run 360 ns
+ Clock: 0 Start: U Cpu Read/Write: U Reset: U
+ CPU address: UUUUUUUU CPU data: UUUUUUUU
+ Memory data: UUUUUUUU
+
+ Busy: U Memory  Enable: U
+ Memory  Address: UUUUUUUU
+ ----------------------------------------------
+ Clock: 0 Start: 0 Cpu Read/Write: Z Reset: 1
+ CPU address: ZZZZZZZZ CPU data: UUUUUUUU
+ Memory data: UUUUUUUU
+
+ Busy: U Memory  Enable: U
+ Memory  Address: UUUUUUUU
+ ----------------------------------------------
+ Clock: 1 Start: 0 Cpu Read/Write: Z Reset: 1
+ CPU address: ZZZZZZZZ CPU data: UUUUUUUU
+ Memory data: ZZZZZZZZ
+
+ Busy: U Memory  Enable: U
+ Memory  Address: UUUUUUUU
+ ----------------------------------------------
+ Clock: 1 Start: 0 Cpu Read/Write: Z Reset: 1
+ CPU address: ZZZZZZZZ CPU data: UUUUUUUU
+ Memory data: ZZZZZZZZ
+
+ Busy: U Memory  Enable: U
+ Memory  Address: UUUUUUUU
+ ----------------------------------------------
+ Clock: 2 Start: 0 Cpu Read/Write: Z Reset: 1
+ CPU address: ZZZZZZZZ CPU data: UUUUUUUU
+ Memory data: ZZZZZZZZ
+
+ Busy: U Memory  Enable: U
+ Memory  Address: UUUUUUUU
+ ----------------------------------------------
+ Clock: 2 Start: 1 Cpu Read/Write: 1 Reset: 0
+ CPU address: 00000000 CPU data: UUUUUUUU
+ Memory data: ZZZZZZZZ
+
+ Busy: U Memory  Enable: U
+ Memory  Address: UUUUUUUU
+ ----------------------------------------------
+Ran until 360 NS + 0
+ncsim> exit

@@ -1,0 +1,337 @@
+ncvhdl: 15.20-s035: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncvhdl	15.20-s035: Started on Nov 22, 2017 at 22:45:18 EST
+ncvhdl
+    -messages
+    -linedebug
+    -smartorder
+    and2.vhd
+    and3.vhd
+    and4.vhd
+    cache_1bit_test.vhd
+    cache_1bit.vhd
+    cache_32_byte_test.vhd
+    cache_32_byte.vhd
+    cache_byte_test.vhd
+    cache_byte.vhd
+    chip_full_test.vhd
+    chip_test.vhd
+    chip.vhd
+    col_out_checker.vhd
+    counter_resets.vhd
+    counter_test.vhd
+    counter.vhd
+    dec_2x4_test.vhd
+    dec_2x4.vhd
+    dec_3x8_test.vhd
+    dec_3x8.vhd
+    dff.vhd
+    Dlatch_8bit.vhd
+    Dlatch.vhd
+    enable_selector.vhd
+    inverter.vhd
+    mux_2x1_test.vhd
+    mux_2x1.vhd
+    mux_4x1_test.vhd
+    mux_4x1.vhd
+    nand2.vhd
+    nand3.vhd
+    nand4.vhd
+    nor2.vhd
+    nor3.vhd
+    nor4.vhd
+    or2.vhd
+    or3.vhd
+    register_8bit_test.vhd
+    register_8bit.vhd
+    row_col_selector.vhd
+    tag_3bit_cache.vhd
+    tag_comparator.vhd
+    tag_full_3bit_cache.vhd
+    TxGate_8bit.vhd
+    TxGate.vhd
+    valid_1bit_cache.vhd
+    xor2.vhd
+
+TxGate.vhd:
+	errors: 0, warnings: 0
+TxGate_8bit.vhd:
+	errors: 0, warnings: 0
+or3.vhd:
+	errors: 0, warnings: 0
+xor2.vhd:
+	errors: 0, warnings: 0
+tag_comparator.vhd:
+	errors: 0, warnings: 0
+dff.vhd:
+	errors: 0, warnings: 0
+register_8bit.vhd:
+	errors: 0, warnings: 0
+register_8bit_test.vhd:
+	errors: 0, warnings: 0
+inverter.vhd:
+	errors: 0, warnings: 0
+or2.vhd:
+	errors: 0, warnings: 0
+nand2.vhd:
+	errors: 0, warnings: 0
+nand4.vhd:
+	errors: 0, warnings: 0
+nand3.vhd:
+	errors: 0, warnings: 0
+mux_4x1.vhd:
+	errors: 0, warnings: 0
+mux_4x1_test.vhd:
+	errors: 0, warnings: 0
+and2.vhd:
+	errors: 0, warnings: 0
+mux_2x1.vhd:
+	errors: 0, warnings: 0
+mux_2x1_test.vhd:
+	errors: 0, warnings: 0
+Dlatch.vhd:
+	errors: 0, warnings: 0
+Dlatch_8bit.vhd:
+	errors: 0, warnings: 0
+dec_3x8.vhd:
+	errors: 0, warnings: 0
+dec_3x8_test.vhd:
+	errors: 0, warnings: 0
+dec_2x4.vhd:
+	errors: 0, warnings: 0
+dec_2x4_test.vhd:
+	errors: 0, warnings: 0
+counter.vhd:
+	errors: 0, warnings: 0
+counter_test.vhd:
+	errors: 0, warnings: 0
+col_out_checker.vhd:
+	errors: 0, warnings: 0
+nor2.vhd:
+	errors: 0, warnings: 0
+and3.vhd:
+	errors: 0, warnings: 0
+nor3.vhd:
+	errors: 0, warnings: 0
+nor4.vhd:
+	errors: 0, warnings: 0
+counter_resets.vhd:
+	errors: 0, warnings: 0
+cache_1bit.vhd:
+	errors: 0, warnings: 0
+cache_byte.vhd:
+	errors: 0, warnings: 0
+cache_32_byte.vhd:
+	errors: 0, warnings: 0
+enable_selector.vhd:
+	errors: 0, warnings: 0
+row_col_selector.vhd:
+	errors: 0, warnings: 0
+valid_1bit_cache.vhd:
+	errors: 0, warnings: 0
+tag_3bit_cache.vhd:
+	errors: 0, warnings: 0
+tag_full_3bit_cache.vhd:
+	errors: 0, warnings: 0
+chip.vhd:
+	errors: 0, warnings: 0
+chip_test.vhd:
+	errors: 0, warnings: 0
+chip_full_test.vhd:
+	errors: 0, warnings: 0
+cache_byte_test.vhd:
+	errors: 0, warnings: 0
+cache_32_byte_test.vhd:
+	errors: 0, warnings: 0
+cache_1bit_test.vhd:
+	errors: 0, warnings: 0
+and4.vhd:
+	errors: 0, warnings: 0
+VHDL.TXGATE (entity):
+	streams: 5, words: 62
+VHDL.TXGATE:STRUCTURAL (architecture):
+	streams: 1, words: 99
+VHDL.TXGATE_8BIT (entity):
+	streams: 7, words: 490
+VHDL.TXGATE_8BIT:STRUCTURAL (architecture):
+	streams: 9, words: 1847
+VHDL.OR3 (entity):
+	streams: 5, words: 62
+VHDL.OR3:STRUCTURAL (architecture):
+	streams: 1, words: 99
+VHDL.XOR2 (entity):
+	streams: 4, words: 56
+VHDL.XOR2:STRUCTURAL (architecture):
+	streams: 1, words: 99
+VHDL.TAG_COMPARATOR (entity):
+	streams: 6, words: 482
+VHDL.TAG_COMPARATOR:STRUCTURAL (architecture):
+	streams: 3, words: 838
+VHDL.DFF (entity):
+	streams: 6, words: 68
+VHDL.DFF:STRUCTURAL (architecture):
+	streams: 1, words: 99
+VHDL.REGISTER_8BIT (entity):
+	streams: 7, words: 490
+VHDL.REGISTER_8BIT:STRUCTURAL (architecture):
+	streams: 9, words: 2034
+VHDL.REGISTER_8BIT_TEST (entity):
+	streams: 1, words: 38
+VHDL.REGISTER_8BIT_TEST:TEST (architecture):
+	streams: 2, words: 2309
+VHDL.INVERTER (entity):
+	streams: 3, words: 50
+VHDL.INVERTER:STRUCTURAL (architecture):
+	streams: 1, words: 99
+VHDL.OR2 (entity):
+	streams: 4, words: 56
+VHDL.OR2:STRUCTURAL (architecture):
+	streams: 1, words: 99
+VHDL.NAND2 (entity):
+	streams: 4, words: 56
+VHDL.NAND2:STRUCTURAL (architecture):
+	streams: 1, words: 99
+VHDL.NAND4 (entity):
+	streams: 6, words: 68
+VHDL.NAND4:STRUCTURAL (architecture):
+	streams: 4, words: 817
+VHDL.NAND3 (entity):
+	streams: 5, words: 62
+VHDL.NAND3:STRUCTURAL (architecture):
+	streams: 1, words: 99
+VHDL.MUX_4X1 (entity):
+	streams: 8, words: 80
+VHDL.MUX_4X1:STRUCTURAL (architecture):
+	streams: 8, words: 1641
+VHDL.MUX_4X1_TEST (entity):
+	streams: 1, words: 38
+VHDL.MUX_4X1_TEST:TEST (architecture):
+	streams: 2, words: 1079
+VHDL.AND2 (entity):
+	streams: 4, words: 56
+VHDL.AND2:STRUCTURAL (architecture):
+	streams: 1, words: 99
+VHDL.MUX_2X1 (entity):
+	streams: 5, words: 62
+VHDL.MUX_2X1:STRUCTURAL (architecture):
+	streams: 5, words: 1023
+VHDL.MUX_2X1_TEST (entity):
+	streams: 1, words: 38
+VHDL.MUX_2X1_TEST:TEST (architecture):
+	streams: 2, words: 1079
+VHDL.DLATCH (entity):
+	streams: 4, words: 56
+VHDL.DLATCH:STRUCTURAL (architecture):
+	streams: 1, words: 99
+VHDL.DLATCH_MEM_DATA_8BIT (entity):
+	streams: 7, words: 490
+VHDL.DLATCH_MEM_DATA_8BIT:STRUCTURAL (architecture):
+	streams: 9, words: 1847
+VHDL.DEC_3X8 (entity):
+	streams: 6, words: 276
+VHDL.DEC_3X8:STRUCTURAL (architecture):
+	streams: 1, words: 199
+VHDL.DEC_3X8_TEST (entity):
+	streams: 1, words: 38
+VHDL.DEC_3X8_TEST:TEST (architecture):
+	streams: 2, words: 1687
+VHDL.DEC_2X4 (entity):
+	streams: 5, words: 260
+VHDL.DEC_2X4:STRUCTURAL (architecture):
+	streams: 1, words: 199
+VHDL.DEC_2X4_TEST (entity):
+	streams: 1, words: 38
+VHDL.DEC_2X4_TEST:TEST (architecture):
+	streams: 2, words: 1647
+VHDL.COUNTER (entity):
+	streams: 5, words: 270
+VHDL.COUNTER:STRUCTURAL (architecture):
+	streams: 6, words: 1611
+VHDL.COUNTER_TEST (entity):
+	streams: 1, words: 38
+VHDL.COUNTER_TEST:TEST (architecture):
+	streams: 2, words: 1691
+VHDL.COL_OUT_CHECKER (entity):
+	streams: 12, words: 500
+VHDL.COL_OUT_CHECKER:STRUCTURAL (architecture):
+	streams: 1, words: 199
+VHDL.NOR2 (entity):
+	streams: 4, words: 56
+VHDL.NOR2:STRUCTURAL (architecture):
+	streams: 1, words: 99
+VHDL.AND3 (entity):
+	streams: 5, words: 62
+VHDL.AND3:STRUCTURAL (architecture):
+	streams: 1, words: 99
+VHDL.NOR3 (entity):
+	streams: 5, words: 62
+VHDL.NOR3:STRUCTURAL (architecture):
+	streams: 1, words: 99
+VHDL.NOR4 (entity):
+	streams: 6, words: 68
+VHDL.NOR4:STRUCTURAL (architecture):
+	streams: 4, words: 817
+VHDL.COUNTER_RESETS (entity):
+	streams: 10, words: 300
+VHDL.COUNTER_RESETS:STRUCTURAL (architecture):
+	streams: 15, words: 3083
+VHDL.CACHE_1BIT (entity):
+	streams: 5, words: 62
+VHDL.CACHE_1BIT:STRUCTURAL (architecture):
+	streams: 4, words: 817
+VHDL.CACHE_BYTE (entity):
+	streams: 7, words: 490
+VHDL.CACHE_BYTE:STRUCTURAL (architecture):
+	streams: 9, words: 1847
+VHDL.CACHE_32_BYTE (entity):
+	streams: 9, words: 1038
+VHDL.CACHE_32_BYTE:STRUCTURAL (architecture):
+	streams: 33, words: 31583
+VHDL.ENABLE_SELECTOR (entity):
+	streams: 21, words: 1794
+VHDL.ENABLE_SELECTOR:STRUCTURAL (architecture):
+	streams: 81, words: 16866
+VHDL.ROW_COL_SELECTOR (entity):
+	streams: 7, words: 748
+VHDL.ROW_COL_SELECTOR:STRUCTURAL (architecture):
+	streams: 33, words: 6791
+VHDL.VALID_1BIT_CACHE (entity):
+	streams: 7, words: 490
+VHDL.VALID_1BIT_CACHE:STRUCTURAL (architecture):
+	streams: 9, words: 1847
+VHDL.TAG_3BIT_CACHE (entity):
+	streams: 7, words: 488
+VHDL.TAG_3BIT_CACHE:STRUCTURAL (architecture):
+	streams: 4, words: 817
+VHDL.TAG_FULL_3BIT_CACHE (entity):
+	streams: 9, words: 916
+VHDL.TAG_FULL_3BIT_CACHE:STRUCTURAL (architecture):
+	streams: 9, words: 8007
+VHDL.CHIP (entity):
+	streams: 17, words: 966
+VHDL.CHIP:STRUCTURAL (architecture):
+	streams: 15, words: 20281
+VHDL.CHIP_TEST (entity):
+	streams: 1, words: 38
+VHDL.CHIP_TEST:TEST (architecture):
+	streams: 2, words: 3206
+VHDL.CHIP_FULL_TEST (entity):
+	streams: 1, words: 38
+VHDL.CHIP_FULL_TEST:TEST (architecture):
+	streams: 2, words: 3206
+VHDL.CACHE_BYTE_TEST (entity):
+	streams: 1, words: 38
+VHDL.CACHE_BYTE_TEST:TEST (architecture):
+	streams: 2, words: 2309
+VHDL.CACHE_32_BYTE_TEST (entity):
+	streams: 1, words: 38
+VHDL.CACHE_32_BYTE_TEST:TEST (architecture):
+	streams: 2, words: 3910
+VHDL.CACHE_1BIT_TEST (entity):
+	streams: 1, words: 38
+VHDL.CACHE_1BIT_TEST:TEST (architecture):
+	streams: 2, words: 1083
+VHDL.AND4 (entity):
+	streams: 6, words: 68
+VHDL.AND4:STRUCTURAL (architecture):
+	streams: 3, words: 611
+TOOL:	ncvhdl	15.20-s035: Exiting on Nov 22, 2017 at 22:45:19 EST  (total: 00:00:01)
